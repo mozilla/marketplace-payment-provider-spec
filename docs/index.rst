@@ -57,17 +57,12 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-   install.rst
-   using.rst
+
    developer.rst
-   l10n.rst
-   payment.rst
-   config.rst
    reporting.rst
    refunds.rst
    security.rst
    miscellaneous.rst
-   tests.rst
    flow.rst
    faq.rst
 
