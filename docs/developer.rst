@@ -6,17 +6,16 @@ Developers
 This covers registering setting up a seller (who is normally an app developer)
 and registering their products with the payment provider.
 
-Note that in the following examples ``{*uuid}`` refers to an actual ``uuid``.
+Unlike most other payment systems, the merchant of record is not Mozilla
+or the payment provider, but the app developer. Setting up the developers
+account allows the developer to become the merchant of record.
+
+This is a key difference between this payment system and other payment systems
+and the implications must be understood by the payment providers.
 
 .. note::
 
-    Sellers and products both return list of JSON elements which is bad from
-    a security perspective because it can be subject to `JSON Hijacking`_.
-    In case of a real JavaScript implementation, you must `use prefixes`_
-    to prevent that.
-
-.. _`JSON Hijacking`: http://haacked.com/archive/2009/06/25/json-hijacking.aspx/
-.. _`use prefixes`: https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses
+    In the following examples ``{*uuid}`` refers to an actual ``uuid``.
 
 .. _sellers:
 
