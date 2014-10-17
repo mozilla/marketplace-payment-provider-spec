@@ -11,9 +11,6 @@ These docs are also available as a PDF: https://media.readthedocs.org/pdf/market
 Overview
 -----------
 
-Everything you need to know about data formats, protocols, authentication and
-the like. See the :ref:`using zippy documentation <using-label>`.
-
 Sellers
 ~~~~~~~
 
@@ -31,10 +28,8 @@ See the :ref:`developer documentation <developer-label>`.
 Payment
 ~~~~~~~
 
-* The actual payment part of the :ref:`flow <flow>`.
-* Starting the payment :ref:`flow <flow>`.
+* The :ref:`transaction API <transactions>` to start the flow.
 * Pages that should be shown and hosted by the payment provider.
-* The result after the payment has been completed.
 
 See the :ref:`payment documentation <payment-label>`.
 
@@ -59,6 +54,7 @@ Contents:
    :maxdepth: 2
 
    developer.rst
+   payments.rst
    reporting.rst
    refunds.rst
    security.rst
