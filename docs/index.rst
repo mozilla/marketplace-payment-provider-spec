@@ -6,7 +6,7 @@ Marketplace Payments systems.
 
 For a functional reference implementation of this specification, please check out zippy: http://zippypayments.readthedocs.org/en/latest/
 
-These docs are also available as a PDF: https://media.readthedocs.org/pdf/marketplace-payment-provider-spec/latest/marketplace-payment-provider-spec.pdf
+These docs are also available as a PDF: https://media.readthedocs.org/pdf/marketplace-payments-specification/latest/marketplace-payments-specification.pdf
 
 Overview
 -----------
