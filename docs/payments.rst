@@ -148,8 +148,6 @@ This API enables you to begin a transaction so that a product can be purchased.
 Carrier Authentication
 ----------------------
 
-.. note:: This shows what is existing in production with Bango as of Nov 2013.
-
 This is a basic flow for how carrier authentication works.
 
 .. image:: diagrams/auth-flow.png
@@ -185,8 +183,6 @@ Example:
 
 Credit card or carrier billing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. note:: This shows what is existing in production with Bango as of Nov 2013.
 
 Currently when a user lands on the buy page, the user has to choose between
 using carrier billing or a credit card. This diagram outlines the choices.
