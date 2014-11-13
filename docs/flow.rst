@@ -1,15 +1,10 @@
 .. _flow:
 
 =======================
-End To End Payment Flow
+Flows
 =======================
 
-This page covers the payment flows for the whole process. These exist to explain to other payment processors how the whole payment flow works. Please note that these flows will vary depending upon the payment provider capabilities. Things that will affect the flow are inlcuded but not limited to:
-
-* If the payment provider supports operator billing
-* If the payment provider supports credit card
-* If the payment provider supports and remembers an identity from the
-  marketplace
+This page covers the payment flows for the whole process. These exist to explain to other payment processors how the whole payment flow works.
 
 Step 1: Click Buy
 -----------------
@@ -18,10 +13,10 @@ User clicks buy, JWT is prepared and the payment flow starts.
 
 .. image:: diagrams/buy-flow-part-one.png
 
-Step 2 (if required): Firefox Account Login
--------------------------------------------
+Step 2 (if required): Persona Login
+-----------------------------------
 
-User authenticates using Firefox Accounts.
+User authenticates using Persona.
 
 Step 3: PIN
 -----------
@@ -35,17 +30,25 @@ Payment starts.
 
 .. image:: diagrams/buy-flow-part-four.png
 
-Step 5: Carrier billing
------------------------
+Step 5: Carrier Authentication
+------------------------------
 
-Attempt to identify phone on the carrier. Will use header enrichment
-or SMS.
+Attempt to identify phone for carrier.
 
 .. image:: diagrams/auth-flow.png
 
-Step 6: Credit card
--------------------
+Step 6: SMS Authentication
+--------------------------
 
-User chooses credit card or returns to carrier billing.
+If carrier authentication fails, an attempt to use SMS for authentication.
+
+For "Silent SMS" please see: https://wiki.mozilla.org/WebAPI/WebPaymentProvider
+
+.. image:: diagrams/auth-flow-sms.png
+
+Step 6: Payment Choice
+----------------------
+
+User chooses payment method.
 
 .. image:: diagrams/buy-flow.png
