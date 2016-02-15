@@ -1,6 +1,8 @@
 Marketplace Payments Specification
 ==================================
 
+*Please note:* this project is currently unmaintained and is not (or soon will not) be in active use by Mozilla.
+
 This is a document outlining the payments specification for working with the
 Marketplace Payments systems.
 
@@ -69,4 +71,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
